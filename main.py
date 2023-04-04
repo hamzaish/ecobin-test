@@ -9,3 +9,4 @@ json_path = "model_class.json"
 pred = model_load(path, json_path, "slow")
 
 print(pred.classify('snapple.png'))
+print(pred.classify('snapple.png'))
